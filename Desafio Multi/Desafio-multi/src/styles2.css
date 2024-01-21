@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+.header {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+
+.content-section {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.content-icons {
+  display: flex;
+  width: 65%;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.content-icons img {
+  width: 20px;
+  margin-bottom: 40px;
+  flex-basis: calc(25% - 40px);
+}
+
+@media (max-width: 600px) {
+  .content-icons img {
+    width: 50%;
+    flex-basis: calc(40% - 10px);
+  }
+}
+.content-settings {
+  position: relative;
+}
+
+.content-tv {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.content-tv1 {
+  position: absolute;
+  top: 0;
+  left: 67%;
+  transform: translateX(-50%);
+  width: 50%;
+  height: auto;
+}
+
+.content-marketing,
+.content-tvled,
+.content-tvedges {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+@media only screen and (max-width: 600px) {
+  .content-marketing,
+  .content-tvled,
+  .content-tvedges {
+    width: 100%;
+  }
+}
+.content-marketing img,
+.content-tvled img,
+.content-tvedges img {
+  width: 100%;
+  max-width: none;
+}
+
+.content-voice,
+.content-movie,
+.content-drives,
+.content-benefits {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+@media only screen and (max-width: 600px) {
+  .content-voice,
+  .content-movie,
+  .content-drives,
+  .content-benefits {
+    width: 100%;
+  }
+}
+
+.content-textMulti {
+  width: 40%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+@media only screen and (max-width: 600px) {
+  .content-textMulti {
+    width: 60%;
+  }
+}
+
+.content-depositions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.content-depositions img {
+  width: 40%;
+  margin-bottom: 5px;
+}
+
+.content-depositions img:last-child {
+  align-self: flex-end;
+}
+
+@media (max-width: 600px) {
+  .content-depositions img {
+    width: 100%;
+  }
+}
+.content-benefits {
+  width: 80%;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+body {
+  font-family: "Sora", sans-serif;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-color: #ffffff;
+}
+
+button {
+  font-family: "Sora", sans-serif;
+  cursor: pointer;
+}
+
+svg {
+  width: 100%;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}/*# sourceMappingURL=styles2.css.map */

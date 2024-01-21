@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+}
+
+.carousel-container {
+  width: 100%;
+  margin: 50px auto;
+  overflow: hidden;
+}
+
+.carousel-slider {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-slider img {
+  width: 100%;
+  object-fit: cover;
+}
+
+@media only screen and (max-width: 600px) {
+  .carousel-slider {
+    flex-wrap: nowrap;
+  }
+}

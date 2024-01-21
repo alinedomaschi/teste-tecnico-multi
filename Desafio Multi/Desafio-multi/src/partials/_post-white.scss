@@ -1,0 +1,47 @@
+.section-background {
+  background-color: $primary-white;
+}
+
+.content-section {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+
+  @media only screen and (max-width: 600px) {
+    width: 100%;
+  }
+}
+
+.content-voice,
+.content-movie,
+.content-drives,
+.content-benefits {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+
+  @media only screen and (max-width: 600px) {
+    width: 100%;
+  }
+}
+
+.content-textMulti {
+  width: 40%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+
+  @media only screen and (max-width: 600px) {
+    width: 60%;
+  }
+}
+
+.content-benefits {
+  justify-content: center;
+  padding-bottom: 100px;
+}

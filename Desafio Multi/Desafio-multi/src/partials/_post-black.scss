@@ -1,0 +1,77 @@
+.header {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+
+.content-section {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.content-icons {
+  display: flex;
+  width: 65%;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.content-icons img {
+  width: 20px;
+  margin-bottom: 40px;
+
+  flex-basis: calc(25% - 40px);
+}
+
+@media (max-width: 600px) {
+  .content-icons img {
+    width: 50%;
+    flex-basis: calc(40% - 10px);
+  }
+}
+
+.content-tv,
+.content-marketing,
+.content-tvled,
+.content-tvedges {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  padding-bottom: 50px;
+
+  @media only screen and (max-width: 600px) {
+    width: 100%;
+  }
+
+  img {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.section-gradient {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  background-image: linear-gradient(
+      to bottom,
+      $primary-dark 75%,
+      $primary-white 10%
+    ),
+    url("/assets/tvFina.svg");
+  background-size: cover;
+  background-position: center;
+
+  @media only screen and (max-width: 600px) {
+    width: 100%;
+  }
+}
